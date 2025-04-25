@@ -39,7 +39,7 @@ fun evenOdd(num : Int)   //default data type of the function is ---Unit---
 }
 
 //default argument
-fun printMessage(count : Int = 2){
+private fun printMessage(count : Int = 2){
 
    // count = 4
     //**** variables in function parenthesis are of val type ... can't be reassigned
