@@ -24,4 +24,8 @@ fun main(){
 
     println()
     println(arr.size)
+    for(i in arr){
+        println(i)
+    }
+
 }
