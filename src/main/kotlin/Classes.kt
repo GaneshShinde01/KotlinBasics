@@ -11,6 +11,8 @@ fun main(){
     println(beetle.knRan)
 
     mustang.driveCar()
+
+    beetle.applyBrakes()
 }
 class Car(val name : String , val type : String , var knRan : Int)
 {
