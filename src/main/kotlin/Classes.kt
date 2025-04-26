@@ -5,7 +5,7 @@ fun main(){
     val mustang = Car("mustang","petrol",100)   //this shows the creating and calling the objects
     val beetle = Car("beetle","diesel",200)
 
-    println(mustang.name)
+    println(mustang.name)  //calling the property by reference named mustang
     println(mustang.type)
 
     println(beetle.knRan)
