@@ -12,7 +12,7 @@ fun main(){
 
     mustang.driveCar()
 
-    beetle.applyBrakes()
+    beetle.applyBrakes()  //calling the method
 }
 class Car(val name : String , val type : String , var knRan : Int)
 {
