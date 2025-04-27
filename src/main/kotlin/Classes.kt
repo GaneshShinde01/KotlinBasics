@@ -24,5 +24,5 @@ class Car(val name : String , val type : String , var knRan : Int)
         println("Applied Brakes")
     }
 
-    //check
+
 }
