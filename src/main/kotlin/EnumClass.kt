@@ -12,6 +12,9 @@ fun main(){
     for (i in Day.values()){
         println(i)
     }
+
+    day1.printFormattedDay()
+    
 }
 enum class Day{
 
@@ -32,5 +35,10 @@ enum class Day1(val number : Int){
     WEDNESDAY(4),
     THURSDAY(5),
     FRIDAY(6),
-    SATURDAY(7)
+    SATURDAY(7);  //we need semicolon here
+
+    fun printFormattedDay(){
+        println("Day is $this")
+    }
+
 }
