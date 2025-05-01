@@ -10,9 +10,12 @@ fun main(){
     println(p3)
     println(p4)
 
-    val (id,name) = p2
+    val (id,name) = p2    //de-structuring in data classes or component n-functions
     println(id)
     println(name)
+
+    println(p1.component1())
+    println(p1.component2())
 }
 
 data class Person1(val id : Int, val name : String){
