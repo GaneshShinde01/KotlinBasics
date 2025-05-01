@@ -6,7 +6,7 @@ fun main(){
     println(day)
 
 
-    val day1 = Day1.MONDAY
+    val day1 = Day1.FRIDAY
     println(day1)
     println(day1.number)
 
