@@ -14,7 +14,7 @@ fun main(){
     }
 
     day1.printFormattedDay()
-    
+
 }
 enum class Day{
 
