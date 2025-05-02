@@ -17,7 +17,8 @@ fun main(){
     println(p1.component1())
     println(p1.component2())
 
-
+    println(p2.component1())
+    println(p2.component2())
 }
 
 data class Person1(val id : Int, val name : String){
