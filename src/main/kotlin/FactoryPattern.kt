@@ -15,6 +15,7 @@ fun main(){
    // var pizza3 = Pizza()   // now everyone needs to call create method
 
 
+
 }
 
 // Example of factory pattern using companion
