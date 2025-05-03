@@ -14,6 +14,7 @@ fun main(){
     // fot that we will mark the constructor as private
    // var pizza3 = Pizza()   // now everyone needs to call create method
 
+
 }
 
 // Example of factory pattern using companion
