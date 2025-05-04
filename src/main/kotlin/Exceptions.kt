@@ -15,4 +15,18 @@ fun main(){
     finally {
         println("executes every time")
     }
+
+
+    createUserList(5)
+    createUserList(-2)
+}
+
+//another way for exception handling
+
+fun createUserList(count : Int){
+    if(count < 0){
+        throw IllegalArgumentException("Count must be greater than 0")
+    }else{
+        println("User list created successfully")
+    }
 }
