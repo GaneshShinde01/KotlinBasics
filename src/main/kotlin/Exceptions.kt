@@ -6,6 +6,9 @@ fun main(){
     try{
         println(arr[5])
     }
+    catch (np : NullPointerException){
+        println(np.toString())
+    }
     catch (e : Exception){
         println(e.toString())
     }
