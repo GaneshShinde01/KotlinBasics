@@ -23,7 +23,7 @@ fun main(){
 
 }
 
-fun add(num1 : Int , num2 : Int): Int
+private fun add(num1 : Int , num2 : Int): Int
 {
     val sum = num1 + num2
     return sum
