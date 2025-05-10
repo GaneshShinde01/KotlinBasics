@@ -14,7 +14,7 @@ fun main(){
 
     beetle.applyBrakes()  //calling the method
 }
-class Car(val name : String , val type : String , var knRan : Int)
+private class Car(val name : String , val type : String , var knRan : Int)
 {
 
     fun driveCar(){
