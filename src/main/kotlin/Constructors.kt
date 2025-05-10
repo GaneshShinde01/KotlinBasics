@@ -4,7 +4,7 @@ package org.example
 //********** Types of Constructors**********
 //1. Primary Constructors
 //2. Secondary Constructors
-
+//3. Default Constructors
 
 //this is primary constructor
 class Student(var id:Int,var name:String){
@@ -36,6 +36,11 @@ private class Cars(){
     }
 }
 
+class DefaultCons{
+    fun show(){
+        println("Default Constructor called")
+    }
+}
 
 
 fun main(){
@@ -49,5 +54,9 @@ fun main(){
 
     var car2 = Cars("Maruti Suzuki","Black")
     car2.horn()
+
+    // default constructor
+    var defaultCons = DefaultCons()
+    defaultCons.show()
 }
 
