@@ -30,6 +30,7 @@ private class Cars(){
     constructor(model : String, color :String) : this() {
          this.model = model
          this.color = color
+         println("multiple argument constructor")
     }
 
     fun horn(){
