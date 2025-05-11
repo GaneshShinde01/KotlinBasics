@@ -24,6 +24,7 @@ private class Cars(){
     constructor(model : String) : this() {
          this.model = model
          this.color = "no color"
+         println("single argument constructor")
 
     }
     constructor(model : String, color :String) : this() {
