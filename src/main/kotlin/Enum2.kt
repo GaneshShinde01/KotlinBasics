@@ -20,7 +20,7 @@ fun processTrafficLight(light : TrafficLight){
         TrafficLight.GREEN -> println(light.getInstructions())
     }
 }
-//hello
+
 fun main() {
 
     val red = TrafficLight.RED
