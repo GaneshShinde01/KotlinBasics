@@ -7,6 +7,7 @@ fun main(){
 
     val list = nums.filter(::isOdd)
     println(list)
+
 }
 fun isOdd(a:Int) : Boolean {
     return a %2 != 0
