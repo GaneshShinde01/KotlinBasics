@@ -16,7 +16,6 @@ fun main(){
         println("executes every time")
     }
 
-
     createUserList(5)
     createUserList(-2)
 }
