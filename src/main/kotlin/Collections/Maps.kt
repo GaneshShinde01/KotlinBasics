@@ -19,4 +19,5 @@ fun main(){
     //immutable map
     val map = mapOf<Int,String>(1 to "Ganesh", 2 to "Krushna")
     println(map)
+
 }
