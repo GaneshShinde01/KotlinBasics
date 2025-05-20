@@ -14,5 +14,4 @@ fun main(){
     }
 
     var seletedValue = gender ?: "NA"
-
 }
