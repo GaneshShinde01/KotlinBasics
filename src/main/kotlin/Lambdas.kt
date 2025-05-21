@@ -8,7 +8,6 @@ fun main(){
         val a : Int = 2 + 3
         "Hello"
         2
-
     }
 
     multiLineLambda()
