@@ -12,6 +12,7 @@ fun main(){
     }
 
     println(emp)
+    print(emp)
 
 }
 data class Employee(var name : String= "", var age : Int = 18)
