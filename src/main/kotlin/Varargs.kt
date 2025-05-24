@@ -7,7 +7,6 @@ fun main(){
     add(63,63,2,7)
     add(5,3)
     add(4)
-
 }
 
 private fun add(vararg values: Int){
