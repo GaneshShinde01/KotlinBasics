@@ -1,5 +1,7 @@
 package org.example
 
+import java.io.FileNotFoundException
+
 fun main(){
     val arr = arrayOf(1,2,3,4)
 
@@ -8,6 +10,9 @@ fun main(){
     }
     catch (np : NullPointerException){
         println(np.toString())
+    }
+    catch (f : FileNotFoundException){
+
     }
     catch (e : Exception){
         println(e.toString())
