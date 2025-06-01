@@ -23,7 +23,6 @@ fun main(){
 
 
 
-
     createUserList(5)
     createUserList(-2)
 }
