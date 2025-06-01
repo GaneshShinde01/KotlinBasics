@@ -24,9 +24,7 @@ fun main(){
     finally {
         println("executes every time")
     }
-    finally {
-        println("executes every time")
-    }
+
 
     createUserList(5)
     createUserList(-2)
